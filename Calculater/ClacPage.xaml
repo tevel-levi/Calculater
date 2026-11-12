@@ -21,7 +21,7 @@
             <Button Text="*" Grid.Row="2" Grid.Column="3" Clicked="ButtonOperator_Clicked" BackgroundColor="DarkOrange"/>
             <Button Text="/" Grid.Row="3" Grid.Column="3" Clicked="ButtonOperator_Clicked" BackgroundColor="DarkOrange"/>
             <Button Text="ac" Grid.Row="3" Grid.Column="0" Clicked="ButtonDelete_Clicked" BackgroundColor="Gray"/>
-            <Button Text="=" Grid.Row="4" Grid.Column="2" Clicked="ButtonEqual_Clicked" BackgroundColor="DarkOrange"/>
+            <Button Text="=" Grid.Row="4" Grid.Column="2" Clicked="ButtonEqual_Clicked" BackgroundColor="Gray"/>
         </Grid>
 
     </VerticalStackLayout>
