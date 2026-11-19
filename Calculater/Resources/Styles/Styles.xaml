@@ -4,6 +4,21 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
+    <Style TargetType="Button" x:Key="calcNum">
+        <Setter Property="FontSize" Value="50"/>
+        <Setter Property="TextColor" Value="{StaticResource numbersColor}"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="calcOper">
+        <Setter Property="FontSize" Value="50"/>
+        <Setter Property="TextColor" Value="{StaticResource operatorsColor}"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="calcAc=">
+        <Setter Property="FontSize" Value="50"/>
+        <Setter Property="TextColor" Value="{StaticResource ACColor}"/>
+    </Style>
+
     <Style TargetType="ActivityIndicator">
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
     </Style>
@@ -24,6 +39,7 @@
     </Style>
 
     <Style TargetType="Button">
+        
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource PrimaryDarkText}}" />
         <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
         <Setter Property="FontFamily" Value="OpenSansRegular"/>
